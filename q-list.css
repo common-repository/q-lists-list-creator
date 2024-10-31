@@ -1,0 +1,35 @@
+.graph {
+	width:350px;
+	position: relative;
+	padding:10px;
+	background-color:#dde7eb;
+	border:1px solid #a7d6ec;
+	margin:5px;
+}
+.graph a{cursor:pointer;padding-bottom:5px;}
+.bar-title {
+  position: relative;
+  width: 350px;
+  line-height: 20px;
+  margin-right: 17px;
+  font-weight: bold;
+}
+.bar-title strong{float:right;}
+.bar-container {
+  position: relative;
+  width: 350px;
+  height: 10px;
+  margin: 0px 10px 15px 0;
+  border-bottom:1px dotted #999;
+}
+
+.bar-container div {
+  background-color:#75ccf4;
+  height: 17px;
+}
+.bar-container strong {
+  position: absolute;
+  right: -32px;
+  top: 0px;
+  overflow: hidden;
+}
